@@ -1,36 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 
 #bodyOfFile{
-    background: rgb(233, 90, 214);
+    background: rgb(245, 31, 216);
     border: 3px solid #000;
 }
 
 #page-heading{
+    height: 30vw;
+    background-image: url("cute1.jpg"),url("cute.jpg"),url("paperbg.gif");
+    background-position: left top,right bottom,right,center top;
+    background-repeat: no-repeat,no-repeat,repeat;
+   
     text-align: center;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Fondamento;
-    color: rgba(59, 16, 214, 0.959);
+    color: #000;
     border-bottom: 2px solid #000;
 }
 .chocoType{
-    color: rgb(255, 251, 0);
+    color: rgb(56, 224, 236);
     font-family: 'Times New Roman', Times, serif;
     
 }
 .chocoType:hover{
     font-size: 35px;
-    color: rgba(236, 20, 20, 0.932);
+    color: rgb(27, 236, 20);
 }
 
 .mainSection{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     margin: 5px 5px;
     padding: 5px;
 
-    background: rgba(157, 255, 0);
+    background: rgb(191, 103, 250);
 }
 .image{
     height: 300px;
@@ -46,4 +51,11 @@
 .image:active{
     box-shadow: 4px 4px 5px #aaa;
     background: #aaa;
+    opacity: 0.5;
+}
+
+
+#footer{
+    text-align: center;
+
 }
