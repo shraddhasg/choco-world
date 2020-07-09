@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+#bodyOfFile{
+    border: 3px solid #000;
+}
+
+#page-heading{
+    text-align: center;
+    font-weight: 200;
+    font-family: Fondamento;
+    color: rgba(59, 16, 214, 0.959);
+    border-bottom: 2px solid #000;
+}
+.chocoType{
+    color: #f00;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.chocoType:hover{
+    font-size: 25px;
+    color: rgba(210, 100, 187, 1);
+}
+
+#mainSection{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 5px 5px;
+    padding: 5px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 200px;
+}
+.image:hover{
+    background: #aaa;
+    border-width: 5px;
+}
+.image:active{
+    box-shadow: 4px 4px 5px #aaa;
+    background: #aaa;
+}
