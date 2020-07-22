@@ -1,0 +1,24 @@
+{
+  "name": "choco-world",
+  "version": "1.0.0",
+  "description": "All about Chocolates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shraddhasg/choco-world.git"
+  },
+  "keywords": [],
+  "author": "Shraddha Shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shraddhasg/choco-world/issues"
+  },
+  "homepage": "https://github.com/shraddhasg/choco-world#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
